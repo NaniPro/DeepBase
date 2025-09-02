@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeepBase</title>
+
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/ce0605f931.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Moved from <head> to <body> -->
+  <div class="container">
+    
+    <div class="headerTitle">DeepBase</div>
+    <i class="fa-solid fa-eye-slash" id="eyeCross"></i>
+  </div>
+  <div class="headerTitle2"></div>
+
+  <div class="inputHolder">
+    <input type="text" placeholder="Email" class="input" />
+
+    <div class="eyeContainer">
+      <input type="password" placeholder="Password" class="input inputEye" id="password" />
+      <button class="eyeButton" id="passbutton">
+        <i class="fa-solid fa-eye"></i>
+      </button>
+    </div>
+    <button class="loginButton">Login</button>
+
+    <div class="termsContainer">
+      <input type="checkbox" name="checkbox" class="checkbox" />
+      <span class="tip">I agree to the <a href="TOS/TOS.html">Terms & Conditions.</a></span>
+    </div>
+
+    <span class="tip">Don't have an account yet? <a href="#" class="register">Register.</a></span>
+  </div>
+
+  <div class="inputHolder2"></div>
+
+  <!-- ✅ Include your JS after HTML elements -->
+
+  <script src="index.js"></script>
+</body>
+</html>
